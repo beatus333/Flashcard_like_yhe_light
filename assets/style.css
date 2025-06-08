@@ -1,0 +1,40 @@
+body {
+    #container {
+    display:flex ;
+}
+     font-family: Bai Jamjuree;
+    background-color: #afbea2;
+}
+footer {
+    height:1rem;
+    background-color: #51624f;
+    color: white;
+    bottom:0;
+    position:fixed;
+    width:100%;
+}
+footer p{
+    margin-top: 0,5rem;
+    text-align: center;
+    font-size: 0.6rem;
+}
+.cartao {
+    margin: 1rem 1rem;
+     background-color:#e6d5a9;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% -6rem);
+}
+    .cartao__conteudo {
+    text-align: center;
+    height: 100%;
+}
+.cartao__conteudo h3 {
+    background-color: #9cb4ac;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+}
